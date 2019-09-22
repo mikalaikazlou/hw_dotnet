@@ -10,29 +10,41 @@ namespace Task_1
     {
         static void Main(string[] args)
         {
-            byte a = 10;
-            int b = 5;
-            short c = 6;
-            long d = 2;
-            double e = 11.2;
-            char f = 'A';
+            byte b1 = 10;
+            sbyte b = 2;
+            int i = 5;
+            uint i1 = 3;
+            short s = 6;
+            ushort s1 = 4;
+            long lon = 2;
+            ulong lon1 = 99;
+            double dou = 11.2;
+            float fl = 2.2F;
+            char ch = 'A';
+            decimal dec = 22;
 
             //3 примера неявного преобразования типов
-            c = a;
-            b = c;
-            d = a;
+            int q;
+            q = b + i;
+            long w;
+            w = i + q;
+            ulong e;
+            e = i1 + lon1;
 
             //3 примера явного преобразования типов
-            e = (double) a;
-            f = (char) c;
-            e = (double)d;
+            char qw;
+            qw = (char)(lon1 + i1);
+            byte we;
+            we = (byte)(i1 + s);
+            int er;
+            er = (int)(dou + fl);
 
             //1 пример операции упаковки
-            object up = a;
-
+            object up = b1;
+            Console.WriteLine(b1);
             //1 пример операции распаковки
             up = 111;
-            int a1 = (int) up;
+            int v = (int)up;
         }
     }
 }
