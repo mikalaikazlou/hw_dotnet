@@ -30,6 +30,8 @@ namespace Task_1
             w = i + q;
             ulong e;
             e = i1 + lon1;
+            Console.WriteLine("Результаты неявного преобразования типов" + "\n" +"int q = "+ q + "\n" + "long w = " + w + "\n" + "ulong e = " + e + "\n");
+            
 
             //3 примера явного преобразования типов
             char qw;
@@ -38,13 +40,16 @@ namespace Task_1
             we = (byte)(i1 + s);
             int er;
             er = (int)(dou + fl);
-
+            Console.WriteLine("Результаты явного преобразования типов" + "\n" + "char qw = " + qw + "\n" + "byte we = " + we + "\n" + "int er = " + er + "\n");
+            
             //1 пример операции упаковки
             object up = b1;
-            Console.WriteLine(b1);
+            Console.WriteLine("Результат операции упаковки" + "\n" + "object up = " + b1 + "\n");
+           
             //1 пример операции распаковки
-            up = 111;
-            int v = (int)up;
+            byte v = (byte)(up);
+            Console.WriteLine("Результат операции распаковки" + "\n" + "byte v = " + v);
+            Console.ReadLine();
         }
     }
 }
