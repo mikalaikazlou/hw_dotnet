@@ -10,49 +10,62 @@ namespace Task2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Типы данных:");
             byte b1 = 10;
-            Byte B1 = 11;
-            sbyte b = 2;
-            SByte B = 4;
-            int i = 5;
-            Int32 I = 45;
-            uint i1 = 3;
-            UInt32 I1 = 23;
-            short s = 6;
-            Int16 S = 43;
-            ushort s1 = 4;
-            UInt16 S1 = 34;
-            long lon = 2;
-            Int64 Lon = 234;
-            ulong lon1 = 99;
-            UInt64 Lon1 = 2345;
-            double dou = 11.2;
-            Double Dou = 234.34;
-            float fl = 2.2F;
-            Single Fl = 23.345F;
-            char ch = 'a';
-            Char CH = 'A';
-            decimal dec = 22m;
-            Decimal DEC = 235.34m;
-            object ob = 11.1;
-            Object OB = 10.5;
-            string str = "Good morning";
-            String STR = "Good evening";
+            Byte clrb1 = 11;
+            Console.WriteLine(b1.GetType() + "\t\t"+ clrb1.GetType());
 
-            Console.WriteLine("Типы данных" + "\n" + " byte b1 = "+ b1.GetType() + "\t" + "\t" + "Byte B1 = " + B1.GetType()+
-             "\n" + " sbyte b = " + b.GetType() + "\t" + "\t" + " SByte B = " + B.GetType()+ "\n"+
-             " int i = " + i.GetType() +"\t" + "\t" + " Int32 I = "+ I.GetType()+"\n" + 
-             " uint i1 = " + i1.GetType() + "\t" + " UInt32 I1 = " + I1.GetType()+"\n" +
-             " short s = " + s.GetType() + "\t" + "\t" + " Int16 S = " + S.GetType() + "\n" +
-             " ushort s1 = " + s1.GetType() + "\t" + " UInt16 S1 = " + S1.GetType() + "\n" +
-             " long lon = " + lon.GetType() + "\t" + " Int64 Lon = " + Lon.GetType() + "\n" +
-             " ulong lon1 = " + lon1.GetType() + "\t" + " UInt64 Lon1 = " + Lon1.GetType() + "\n" +
-             " double dou = " + dou.GetType() + "\t" + " Double Dou = " + Dou.GetType() + "\n" +
-             " float fl = " + fl.GetType() + "\t" + " Single Fl = " + Fl.GetType() + "\n" +
-             " char ch = " + ch.GetType() + "\t" + "\t" + " Char CH = " + CH.GetType() + "\n" +
-             " decimal dec = " + dec.GetType() + "\t" + " Decimal DEC = " + DEC.GetType() + "\n" +
-             "  object ob = " + ob.GetType() + "\t" + " Object OB = " + OB.GetType() + "\n" +
-             " string str = " + str.GetType() + "\t" + " String STR = " + STR.GetType() + "\n" );
+            sbyte b = 2;
+            SByte clrB = 4;
+            Console.WriteLine(b.GetType() + "\t\t" + clrB.GetType());
+
+            int i = 5;
+            Int32 clrI = 45;
+            Console.WriteLine(i.GetType() + "\t\t" + clrI.GetType());
+
+            uint i1 = 3;
+            UInt32 clrI1 = 23;
+            Console.WriteLine(i1.GetType() + "\t\t" + clrI1.GetType());
+
+            short s = 6;
+            Int16 clrS = 43;
+            Console.WriteLine(s.GetType() + "\t\t" + clrS.GetType());
+
+            ushort s1 = 4;
+            UInt16 clrS1 = 34;
+            Console.WriteLine(s1.GetType() + "\t\t" + clrS1.GetType());
+
+            long lon = 2;
+            Int64 clrLon = 234;
+            Console.WriteLine(lon.GetType() + "\t\t" + clrLon.GetType());
+
+            ulong lon1 = 99;
+            UInt64 clrLon1 = 2345;
+            Console.WriteLine(lon1.GetType() + "\t\t" + clrLon1.GetType());
+
+            double dou = 11.2;
+            Double clrDou = 234.34;
+            Console.WriteLine(dou.GetType() + "\t\t" + clrDou.GetType());
+
+            float fl = 2.2F;
+            Single clrFl = 23.345F;
+            Console.WriteLine(fl.GetType() + "\t\t" + clrFl.GetType());
+
+            char ch = 'a';
+            Char clrCH = 'A';
+            Console.WriteLine(ch.GetType() + "\t\t" + clrCH.GetType());
+
+            decimal dec = 22m;
+            Decimal clrDEC = 235.34m;
+            Console.WriteLine(dec.GetType() + "\t\t" + clrDEC.GetType());
+
+            object ob = 11.1;
+            Object clrOB = 10.5;
+            Console.WriteLine(ob.GetType() + "\t\t" + clrOB.GetType());
+
+            string str = "Good morning";
+            String clrSTR = "Good evening";
+            Console.WriteLine(str.GetType() + "\t\t" + clrSTR.GetType());
             Console.ReadKey();
         }
     }
