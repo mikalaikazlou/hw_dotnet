@@ -9,8 +9,7 @@ namespace Task_1
     class Program
     {
         static void Main(string[] args)
-        {
-            byte b1 = 10;
+        {   byte b1 = 10;
             sbyte b = 2;
             int i = 5;
             uint i1 = 3;
@@ -32,7 +31,6 @@ namespace Task_1
             e = i1 + lon1;
             Console.WriteLine("Результаты неявного преобразования типов" + "\n" +"int q = "+ q + "\n" + "long w = " + w + "\n" + "ulong e = " + e + "\n");
             
-
             //3 примера явного преобразования типов
             char qw;
             qw = (char)(lon1 + i1);
