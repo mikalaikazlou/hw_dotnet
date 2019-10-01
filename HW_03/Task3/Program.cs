@@ -16,6 +16,7 @@ namespace Task1
             Console.WriteLine("Чему равна сумма?");
             return sum;
         }
+
         static void Main(string[] args)
         {
             int sumEnd = ReadConvert();
