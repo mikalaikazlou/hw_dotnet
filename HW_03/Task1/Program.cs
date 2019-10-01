@@ -16,10 +16,10 @@ namespace Task1
             Console.WriteLine($"Сумма чисел {num11} и {num12} равна " + sum);
             return sum;
         }
+
         static void Main(string[] args)
         {
             int sumEnd = ReadConvert();
-
         }
     }
 }

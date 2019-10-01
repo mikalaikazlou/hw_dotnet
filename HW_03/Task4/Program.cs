@@ -18,22 +18,29 @@ namespace Task1
             Console.WriteLine("Введите оператор \"+\" или \"-\"");
             string operators = Console.ReadLine();
             
-            if (operators == "+" ) {
-                int resalt = number11 + number12;
-                return resalt;}
-            else {
-                int resalt = number11 - number12;
-                return resalt;
+            if (operators == "+" )
+            {
+                int result = number11 + number12;
+                return result;
+            }
+
+            else
+            {
+                int result = number11 - number12;
+                return result;
             }
         }
+
         static void Main(string[] args)
         {
-            int resaltEnd = ReadConvert();
+            int resultEnd = ReadConvert();
             Console.WriteLine("Какой результат вычисления?");
+
             string numberAnswer = Console.ReadLine();
             int answer = Convert.ToInt32(numberAnswer);
-            if (answer == resaltEnd) Console.WriteLine("Правильно!");
-            else if (answer < resaltEnd) Console.WriteLine("Неправильно!\n\nДолжно быть больше!");
+
+            if (answer == resultEnd) Console.WriteLine("Правильно!");
+            else if (answer < resultEnd) Console.WriteLine("Неправильно!\n\nДолжно быть больше!");
             else Console.WriteLine("Неправильно!\nДолжно быть  меньше!");
         }
     }
