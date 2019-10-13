@@ -21,9 +21,6 @@ namespace AssemblyOne
             sportBike.StartEnginePublic();
             int ageSportbike = sportBike.ageMotobike;
             string nameSportbike = sportBike.nameMotobike;
-
-
         }
     }
 }
-
