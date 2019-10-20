@@ -11,11 +11,11 @@ namespace Task9
         static void Main(string[] args)
         {
             XmlConfigurator.Configure();
-            log.Info("Приложение Program, namespace Task9");
+            log.Info("The application Program, namespace Task9");
 
             using (MotorcycleContext db = new MotorcycleContext())
             {
-                log.Info("Начался процесс CRUD операций");
+                log.Info("The process of CRUD operations began");
                 
                 Motorcycle motorcycle = new Motorcycle { name = "honda", model = "fg", year = 3, odometer = 244_325 };
                 Motorcycle motorcycle1 = new Motorcycle { name = "Minsk", model = "lider", year = 34, odometer = 252_000 };
@@ -32,13 +32,13 @@ namespace Task9
                 db.Motorcycles.Remove(motorcycle1);
                 db.SaveChanges();
 
-                log.Info("Начался процесс вывода данных на Консоль");
+                log.Info("The process of data output to the Console began");
 
                 var motobike = db.Motorcycles.ToList();
                 foreach (var moto in motobike)
                     Console.WriteLine($"{moto.id}, {moto.name} , {moto.model}, {moto.odometer}, {moto.year}");
 
-                log.Info("Программа успешна завершена");
+                log.Info("The program is successfully completed");
             }
         }
     }
