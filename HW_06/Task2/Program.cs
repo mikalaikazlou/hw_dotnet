@@ -9,21 +9,28 @@ namespace ConsoleApp6
         {
             string verse = "Текст это упорядоченный набор предложений предназначенный для того чтобы выразить некий смысл";
 
-            DeleteWordMax(verse);
+            SplitText(verse);
+
+            DeleteWordMax(SplitText(verse), verse);
             Console.WriteLine();
 
-            ChangePosition(verse);
+            ChangePosition(SplitText(verse), verse);
             Console.WriteLine();
 
-            CountLetterMark(verse);
+            CountLetterMark(SplitText(verse), verse);
 
-            ReversWords(verse);
+            ReversWords(SplitText(verse), verse);
         }
 
-        static void DeleteWordMax(string text)
+        public static string[] SplitText(string text)
         {
             char[] symbol = { ' ', '.', ',', '!', '?', ';', ':', '"', '-', '\'', '\\' };
             string[] textSplit = text.Split(symbol);
+            return textSplit;
+        }
+
+        static void DeleteWordMax(string[] textSplit, string text)
+        {
             string maxWord = "";
 
             for (int i = 0; i < textSplit.Length; i++)
@@ -34,15 +41,13 @@ namespace ConsoleApp6
             int count = maxWord.Length + 1;
             int indexMaxWord = text.IndexOf(maxWord);
             string textNew = text.Remove(indexMaxWord, count);
-
             Console.WriteLine(textNew);
         }
-        static void ChangePosition(string text)
+
+        static void ChangePosition(string[] textSplit, string text)
         {
-            char[] symbol = { ' ', '.', ',', '!', '?', ';', ':', '"', '-', '\'', '\\' };
             string maxWord = "";
             string minWord = text;
-            string[] textSplit = text.Split(symbol);
 
             for (int i = 0; i < textSplit.Length; i++)
             {
@@ -58,7 +63,6 @@ namespace ConsoleApp6
                 int indexMinWord = changeWord.LastIndexOf(minWord);
                 string deleteWord = changeWord.Remove(indexMinWord, count);
                 string newText = deleteWord.Insert(indexMinWord, maxWord);
-
                 Console.WriteLine(newText);
             }
             else
@@ -66,25 +70,21 @@ namespace ConsoleApp6
                 int indexMinWord = changeWord.IndexOf(minWord);
                 string deleteWord = changeWord.Remove(indexMinWord, count);
                 string newText = deleteWord.Insert(indexMinWord, maxWord);
-
                 Console.WriteLine(newText);
             }
         }
-        static void CountLetterMark(string text)
+
+        static void CountLetterMark(string[] textSplit, string text)
         {
-            char[] symbol = { ' ', '.', ',', '!', '?', ';', ':', '"', '-', '\'', '\\' };
-            string[] textSplit = text.Split(symbol);
             string joinWord = String.Join("", textSplit);
             int countLetter = joinWord.Length;
             int countMark = text.Length - countLetter;
 
             Console.WriteLine($"Count of letters: {countLetter}\nCount of punctuation mark: {countMark}\n");
         }
-        static void ReversWords(string text)
-        {
-            char symbol = ' ';
-            string[] textSplit = text.Split(symbol);
 
+        static void ReversWords(string[] textSplit, string text)
+        {
             for (int i = 0; i < textSplit.Length - 1; i++)
             {
                 for (int j = textSplit.Length - 1; j > 0; j--)
