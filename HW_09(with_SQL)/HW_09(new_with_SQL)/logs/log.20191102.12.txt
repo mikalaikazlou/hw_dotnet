@@ -1,0 +1,32 @@
+2019-11-02 15:29:23,373  INFO  The program is running
+2019-11-02 15:29:23,385  INFO  The process of CRUD operations began
+2019-11-02 15:29:23,389  INFO  The process of creating an object ¹1 in a database
+2019-11-02 15:29:23,458  INFO  The process of creating an object ¹2 in a database
+2019-11-02 15:29:23,462  INFO  The process of creating an object ¹3 in a database
+2019-11-02 15:29:23,465  INFO  The process of updating an object model in a database
+2019-11-02 15:29:23,471  INFO  The process of updating an object name in a database
+2019-11-02 15:29:23,478  DEBUG Error search
+2019-11-02 15:29:23,494  INFO  The process of updating an object year in a database
+2019-11-02 15:29:23,501  INFO  The process of updating an object odometer reading in a database
+2019-11-02 15:29:23,507  DEBUG Error search
+2019-11-02 15:29:23,524  ERROR The object does not exist in the database
+2019-11-02 15:29:23,528  INFO  The process of getting an object  from a database
+2019-11-02 15:29:23,533  INFO  The process of deleting an object  from a database
+2019-11-02 15:29:23,538  DEBUG Error search
+2019-11-02 15:29:23,543  INFO  The program is ended
+2019-11-02 15:30:23,122  INFO  The program is running
+2019-11-02 15:30:23,132  INFO  The process of CRUD operations began
+2019-11-02 15:30:23,136  INFO  The process of creating an object ¹1 in a database
+2019-11-02 15:30:23,194  INFO  The process of creating an object ¹2 in a database
+2019-11-02 15:30:23,199  INFO  The process of creating an object ¹3 in a database
+2019-11-02 15:30:23,207  INFO  The process of updating an object model in a database
+2019-11-02 15:30:23,214  INFO  The process of updating an object name in a database
+2019-11-02 15:30:23,220  DEBUG Error search
+2019-11-02 15:30:23,250  INFO  The process of updating an object year in a database
+2019-11-02 15:30:23,257  INFO  The process of updating an object odometer reading in a database
+2019-11-02 15:30:23,264  DEBUG Error search
+2019-11-02 15:30:23,278  ERROR The object does not exist in the database
+2019-11-02 15:30:23,282  INFO  The process of getting an object  from a database
+2019-11-02 15:30:23,287  INFO  The process of deleting an object  from a database
+2019-11-02 15:30:23,292  DEBUG Error search
+2019-11-02 15:30:23,296  INFO  The program is ended

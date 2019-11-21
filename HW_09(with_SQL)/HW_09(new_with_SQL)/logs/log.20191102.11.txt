@@ -1,0 +1,41 @@
+2019-11-02 14:22:51,090  INFO  The program is running
+2019-11-02 14:22:51,104  INFO  The process of CRUD operations began
+2019-11-02 14:22:51,109  INFO  The process of creating an object ¹1 in a database
+2019-11-02 14:22:51,193  INFO  The process of creating an object ¹2 in a database
+2019-11-02 14:22:51,199  INFO  The process of creating an object ¹3 in a database
+2019-11-02 14:22:51,206  INFO  The process of updating an object model in a database
+2019-11-02 14:22:51,237  INFO  The process of updating an object name in a database
+2019-11-02 14:22:51,243  INFO  The process of updating an object year in a database
+2019-11-02 14:22:51,249  INFO  The process of updating an object odometer reading in a database
+2019-11-02 14:22:51,256  INFO  The process of getting an object  from a database
+2019-11-02 14:22:51,262  INFO  The process of deleting an object  from a database
+2019-11-02 14:22:51,287  DEBUG Error search
+2019-11-02 14:22:51,328  INFO  The program is ended
+2019-11-02 14:23:56,931  INFO  The program is running
+2019-11-02 14:23:56,943  INFO  The process of CRUD operations began
+2019-11-02 14:23:56,947  INFO  The process of creating an object ¹1 in a database
+2019-11-02 14:23:57,013  INFO  The process of creating an object ¹2 in a database
+2019-11-02 14:23:57,018  INFO  The process of creating an object ¹3 in a database
+2019-11-02 14:23:57,023  INFO  The process of updating an object model in a database
+2019-11-02 14:23:57,029  INFO  The process of updating an object name in a database
+2019-11-02 14:23:57,035  INFO  The process of updating an object year in a database
+2019-11-02 14:23:57,043  INFO  The process of updating an object odometer reading in a database
+2019-11-02 14:23:57,050  INFO  The process of getting an object  from a database
+2019-11-02 14:23:57,070  INFO  The process of deleting an object  from a database
+2019-11-02 14:23:57,076  DEBUG Error search
+2019-11-02 14:23:57,097  INFO  The program is ended
+2019-11-02 14:25:27,177  INFO  The program is running
+2019-11-02 14:25:27,190  INFO  The process of CRUD operations began
+2019-11-02 14:25:27,195  INFO  The process of creating an object ¹1 in a database
+2019-11-02 14:25:27,269  INFO  The process of creating an object ¹2 in a database
+2019-11-02 14:25:27,274  INFO  The process of creating an object ¹3 in a database
+2019-11-02 14:25:27,281  INFO  The process of updating an object model in a database
+2019-11-02 14:25:27,288  INFO  The process of updating an object name in a database
+2019-11-02 14:25:27,295  INFO  The process of updating an object year in a database
+2019-11-02 14:25:27,301  INFO  The process of updating an object odometer reading in a database
+2019-11-02 14:25:27,308  DEBUG Error search
+2019-11-02 14:25:27,343  ERROR The object does not exist in the database
+2019-11-02 14:25:27,348  INFO  The process of getting an object  from a database
+2019-11-02 14:25:27,353  INFO  The process of deleting an object  from a database
+2019-11-02 14:25:27,359  DEBUG Error search
+2019-11-02 14:25:27,364  INFO  The program is ended
