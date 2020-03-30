@@ -1,0 +1,4 @@
+2019-10-20 23:40:00,668  INFO  The application Program, namespace Task9
+2019-10-20 23:40:00,787  INFO  The process of CRUD operations began
+2019-10-20 23:40:02,762  INFO  The process of data output to the Console began
+2019-10-20 23:40:02,796  INFO  The program is successfully completed
